@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					8C8F363719FC394D009C7842 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = N3ERUJD974;
 					};
 					8C8F364C19FC394E009C7842 = {
 						CreatedOnToolsVersion = 6.1;
@@ -338,7 +339,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SlotMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +351,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SlotMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +412,7 @@
 				8C8F365919FC394E009C7842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C8F365A19FC394E009C7842 /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +421,7 @@
 				8C8F365C19FC394E009C7842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
