@@ -99,13 +99,18 @@ class ViewController: UIViewController {
 //                    height: containerView.bounds.height * kThird - kMarginForSlot)
 
                 // Better solution from SnappedCoffee
+//                slotImageView.frame = CGRect(
+//                    x: containerView.bounds.origin.x + kMarginForSlot + ((containerView.bounds.size.width - kMarginForSlot) * CGFloat(containerNumber) * kThird),
+//                    y: containerView.bounds.origin.y + kMarginForSlot + ((containerView.bounds.size.height - kMarginForSlot) * CGFloat(slotNumber) * kThird),
+//                    width: (containerView.bounds.width - kMarginForSlot) * kThird - kMarginForSlot,
+//                    height: (containerView.bounds.height - kMarginForSlot) * kThird - kMarginForSlot)
+                
+                // Best solution as regards flexibility and UI/UX factors from SnappedCoffee
                 slotImageView.frame = CGRect(
-                    x: containerView.bounds.origin.x + kMarginForSlot + ((containerView.bounds.size.width - kMarginForSlot) * CGFloat(containerNumber) * kThird),
-                    y: containerView.bounds.origin.y + kMarginForSlot + ((containerView.bounds.size.height - kMarginForSlot) * CGFloat(slotNumber) * kThird),
-                    width: (containerView.bounds.width - kMarginForSlot) * kThird - kMarginForSlot,
-                    height: (containerView.bounds.height - kMarginForSlot) * kThird - kMarginForSlot)
-                
-                
+                    x: containerView.bounds.origin.x + kMarginForSlot + ((containerView.bounds.size.width - kMarginForSlot) * CGFloat(containerNumber) / CGFloat(kNumberOfContainers)),
+                    y: containerView.bounds.origin.y + kMarginForSlot + ((containerView.bounds.size.height - kMarginForSlot) * CGFloat(slotNumber) / CGFloat(kNumberOfSlots)),
+                    width: (containerView.bounds.width - kMarginForSlot) / CGFloat(kNumberOfContainers) - kMarginForSlot,
+                    height: (containerView.bounds.height - kMarginForSlot) / CGFloat(kNumberOfSlots) - kMarginForSlot)
                 
                 containerView.addSubview(slotImageView)
             }
