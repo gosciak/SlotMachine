@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C15EAF81A326F4D006E533A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8C15EAF71A326F4D006E533A /* README.md */; };
 		8C8F363E19FC394D009C7842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F363D19FC394D009C7842 /* AppDelegate.swift */; };
 		8C8F364019FC394D009C7842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F363F19FC394D009C7842 /* ViewController.swift */; };
 		8C8F364319FC394E009C7842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8F364119FC394E009C7842 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C15EAF71A326F4D006E533A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		8C8F363819FC394D009C7842 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8F363C19FC394D009C7842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C8F363D19FC394D009C7842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				8C8F363D19FC394D009C7842 /* AppDelegate.swift */,
 				8C8F363F19FC394D009C7842 /* ViewController.swift */,
+				8C15EAF71A326F4D006E533A /* README.md */,
 				8C8F364119FC394E009C7842 /* Main.storyboard */,
 				8C8F364419FC394E009C7842 /* Images.xcassets */,
 				8C8F364619FC394E009C7842 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C15EAF81A326F4D006E533A /* README.md in Sources */,
 				8C8F364019FC394D009C7842 /* ViewController.swift in Sources */,
 				8C8F363E19FC394D009C7842 /* AppDelegate.swift in Sources */,
 			);
