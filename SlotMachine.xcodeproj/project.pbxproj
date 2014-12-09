@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8C15EAF81A326F4D006E533A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8C15EAF71A326F4D006E533A /* README.md */; };
 		8C15EAFA1A34E9BF006E533A /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C15EAF91A34E9BF006E533A /* Slot.swift */; };
+		8C15EAFC1A34F63D006E533A /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C15EAFB1A34F63D006E533A /* Factory.swift */; };
+		8C15EAFE1A365467006E533A /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C15EAFD1A365467006E533A /* SlotBrain.swift */; };
 		8C8F363E19FC394D009C7842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F363D19FC394D009C7842 /* AppDelegate.swift */; };
 		8C8F364019FC394D009C7842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F363F19FC394D009C7842 /* ViewController.swift */; };
 		8C8F364319FC394E009C7842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8F364119FC394E009C7842 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		8C15EAF71A326F4D006E533A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		8C15EAF91A34E9BF006E533A /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		8C15EAFB1A34F63D006E533A /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		8C15EAFD1A365467006E533A /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 		8C8F363819FC394D009C7842 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8F363C19FC394D009C7842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C8F363D19FC394D009C7842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,10 +87,12 @@
 			children = (
 				8C8F363D19FC394D009C7842 /* AppDelegate.swift */,
 				8C8F363F19FC394D009C7842 /* ViewController.swift */,
+				8C15EAFD1A365467006E533A /* SlotBrain.swift */,
 				8C15EAF91A34E9BF006E533A /* Slot.swift */,
 				8C15EAF71A326F4D006E533A /* README.md */,
 				8C8F364119FC394E009C7842 /* Main.storyboard */,
 				8C8F364419FC394E009C7842 /* Images.xcassets */,
+				8C15EAFB1A34F63D006E533A /* Factory.swift */,
 				8C8F364619FC394E009C7842 /* LaunchScreen.xib */,
 				8C8F363B19FC394D009C7842 /* Supporting Files */,
 			);
@@ -223,6 +229,8 @@
 				8C8F364019FC394D009C7842 /* ViewController.swift in Sources */,
 				8C8F363E19FC394D009C7842 /* AppDelegate.swift in Sources */,
 				8C15EAFA1A34E9BF006E533A /* Slot.swift in Sources */,
+				8C15EAFE1A365467006E533A /* SlotBrain.swift in Sources */,
+				8C15EAFC1A34F63D006E533A /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
